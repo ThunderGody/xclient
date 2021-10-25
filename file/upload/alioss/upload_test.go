@@ -5,9 +5,9 @@ import "testing"
 func TestAlyOssService_FileUpload(t *testing.T) {
 	config := OssConfig{
 		Bucket:    "yujs",
-		Endpoint:  "oss-cn-beijing.aliyuncs.com",
-		AccessKey: "LTAI5t7ZysrHQ55pc2KzcKJu",
-		SecretKey: "AMHuQgEANOUTIp2BPiF9fkC5M8HpHt",
+		Endpoint:  "",
+		AccessKey: "",
+		SecretKey: "",
 	}
 	ossService := NewOssService(config)
 	filePath := "../../test.png"
